@@ -16,13 +16,16 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    sdl,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
+    syracuse,
     threejs,
+    java,
+    python,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +49,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "USU Student",
       icon: mobile,
     },
     {
@@ -54,7 +57,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Software Designer",
       icon: creator,
     },
   ];
@@ -73,8 +76,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Java",
+      icon: java,
     },
     {
       name: "React JS",
@@ -105,68 +108,40 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Student Software Tester",
+      company_name: "Space Dynamics Labortory",
+      icon: sdl,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Testing Software to meet client requirements",
+        "Collaborating with Software Test Engineers and Developers to ensure that the product meeted expectations before release",
+        "Worked with Github to improve testing documents and procedures",
+        "Ensured overall quality control of Software Products and Hardware",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "IT",
+      company_name: "Syracuse Arts Academy",
+      icon: syracuse,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2017 - Jul 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked to remove data-caches off of student computers",
+        "Worked with IT members to ensure that sensitive student data was properly disposed.",
+        "Communicated with other school staff to ensure computers were cleaned and wiped properly before the new school year.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
